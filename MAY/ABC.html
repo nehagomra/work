@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>slide</title>
+	<link rel="stylesheet" href="css/Css.css">
+	</head>
+	<body>
+	<section id="section">
+	  <header>
+       <nav class="nav1">
+        <ul>
+          <li ><a href="#" class="emptyli"></a></li>
+          <li><a href="#" class="emptyli"></a></li>
+          <li ><a href="#" >Hem</a></li>
+          <li><a href="#">Hyp patient</a></li>
+          <li><a href="#">Effekt</a>
+        <ul>
+          <li><a href="#">Monterapi</a></li>
+          <li><a href="#">Tillagg</a></li>
+          <li><a href="#">Vikminskning</a></li>
+		  </ul>	  
+    </li>
+       <li><a href="#">Samman-Fattning</a>
+		 <ul>
+		   <li><a href="#">Biverningar</a></li>
+		   <li><a href="#">Dosering</a></li>	
+		 </ul>
+      </li>
+      <li><a href="#">Toolbox</a>
+		  <ul>
+		  <li><a href="#">Verkningsmekanism</a></li>
+		  <li><a href="#">Hog baseline</a></li>	
+		  <li><a href="#">Tillag till insulin</a></li>
+		  </ul>
+        </li>
+      <li><a href="#">Indikation & subvention</a></li>
+</ul>
+</nav>
+</header>
+</section>
+<section id="section">
+<div class="maindiv">
+	<img src="image/woman.jpg">
+	<div class="righContent">
+	<div class="rightdiv">
+      <p>JARDIANCE – för behandling av typ 2-diabetes</p>
+	  <h1>Glykemisk kontroll med<br>samtidig viktreduktion</h1></div>
+	  <div class="contents">
+	 <span>JARDIANCE kan erbjuda:</span>
+
+<div id="json"></div>
+<script>
+var mywork = [
+{
+"display": "Signifikant sänkning av HbA",
+"url": "http://www.w3schools.com/js/default.asp"
+},
+{
+"display": "Signifikant viktminskning",
+"url": "http://www.w3schools.com/html/default.asp"
+},
+{
+"display": "En tablett, en gång om dagen",
+"url": "http://www.w3schools.com/css/default.asp"
+}
+];
+
+myFunction(mywork);
+
+function myFunction(arr) {
+    var out = "";
+    var i;
+    for(i = 0; i < arr.length; i++) {
+        out += '<a href="' + arr[i].url + '">' + 
+        arr[i].display + '</a><br>';
+    }
+    document.getElementById("json").innerHTML = out;
+}
+</script>
+	
+	 </div>
+		</div> 
+	</div>
+	</section>
+	</body>	
+	</html>
